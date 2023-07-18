@@ -1,0 +1,6 @@
+#services:
+   # json:
+    #  serviceRegistry:
+     #   initFromJson: true
+     #   config:
+        #  location: classpath:/services

@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.CasRegisteredService",
+  "serviceId" : "^http://localhost:8900/login/cas(\\z|/.*)",
+  "name" : "casSecuredApp",
+  "id" : 8900,
+  "logoutType" : "BACK_CHANNEL",
+  "logoutUrl" : "http://localhost:8900/exit/cas",
+  "evaluationOrder" : 1
+}

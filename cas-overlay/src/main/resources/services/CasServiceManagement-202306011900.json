@@ -1,0 +1,12 @@
+{
+  "@class" : "org.apereo.cas.services.CasRegisteredService",
+  "serviceId" : "^https://localhost:8444/cas-management(\\z|/.*)",
+  "name" : "CAS Services Management",
+  "id" : 202306011900,
+  "logoutType" : "BACK_CHANNEL",
+  "logoutUrl" : "^https://localhost:8444/cas-management/logout.html",
+  "description" : "CAS services management webapp",
+  "evaluationOrder" : 5500
+ 
+  
+}
